@@ -1,5 +1,7 @@
 # Attitude-Prediction-Based-on-Three-axis-Acceleration
 
+嵌入式系统开发作业
+
 A simple demo, using accelerometer data, classifies and recognizes different activities (e.g. walking, running, sitting, standing) by building convolutional neural networks and long short-term memory network (CNN-LSTM) models. The project covers the complete process of data generation, preprocessing, model training, prediction, and more.
 
 ## 项目结构
@@ -15,8 +17,8 @@ A simple demo, using accelerometer data, classifies and recognizes different act
 │   ├── label_encoder.save            # 标签编码器
 │   └── trained_model.h5              # 训练好的模型
 ├── main.py                           # 主程序（可选）
-├── make_dataset.py                   # 生成训练和测试数据集的脚本
-├── make_verify_dataset.py            # 生成验证数据集的脚本
+├── make_dataset.py                   # 生成训练和测试数据集的脚本(用于测试)
+├── make_verify_dataset.py            # 生成验证数据集的脚本(用于测试)
 ├── train.py                          # 模型训练脚本
 ├── predict.py                        # 模型预测脚本
 └── README.md                         # 项目说明文件
